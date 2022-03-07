@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+#root, .App, .auth {
+  height: 100%;
+}
+
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+.auth .auth__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 520px;
+  width: 510px;
+  border: 1px solid rgba(39, 39, 39, 0.1);
+  border-radius: 10px;
+}
+
+.auth__pass, .auth__log {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__input {
+  box-sizing: border-box;
+  width: 334px;
+  height: 48px;
+  font-size: 20px;
+  border: 1px solid rgba(23, 23, 25, 0.2);
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=Auth.css.map */
